@@ -106,7 +106,7 @@ return [
     'prohibited_unless'    => ':attributeフィールドは、:otherが:valuesでない限り禁止されています。',
     'prohibits'            => ':attribute フィールドは、:other が存在することを禁止します。',
     'regex'                => ':attributeには、有効な正規表現を指定してください。',
-    'required'             => ':attributeは、必ず指定してください。',
+    'required'             => ':attributeは必ず指定してください。',
     'required_array_keys'  => ':attributeフィールドには、：valuesのエントリを含める必要があります。',
     'required_if'          => ':otherが:valueの場合、:attributeを指定してください。',
     'required_unless'      => ':otherが:values以外の場合、:attributeを指定してください。',
@@ -135,6 +135,9 @@ return [
     ],
     'attributes' => [
         'title' => '件名',
-        'content' => '本文'
+        'content' => '本文',
+        'name' => '名前',
+        'memo' => 'メモ',
+        'price' => '価格',
     ],
 ];
