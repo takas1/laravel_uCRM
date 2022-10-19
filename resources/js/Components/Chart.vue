@@ -4,7 +4,7 @@ import { BarChart } from "vue-chart-3";
 import { reactive, computed } from "vue";
 
 const props = defineProps({
-    "data" : Object
+    'data' : Object
 })
 
 const labels = computed(() => props.data.labels )
